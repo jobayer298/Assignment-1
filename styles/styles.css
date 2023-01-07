@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+section{
+    padding: 100px 0;
+}
+/* Header design */
+.header{
+    padding: 200px 0 150px 0;
+    background-image: url("../images/banner/banner1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.header-container{
+    text-align: right;
+}
+h1.header-title {
+    margin-bottom: 20px;
+    line-height: 74px;
+    font-size: 66px;
+    font-weight: 700;
+}
+p.header-desc {
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 30px;
+}
+.btn{
+    border-radius: 5px;
+    border: 0;
+    color: #ffffff;
+    padding: 16px 25px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.header-btn{
+    background: #F15B22;
+}
+/* Failure section */
+.failure-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+.person>img {
+    width: 569px;
+    height: 719px;
+}
+.failure-details {
+    margin-top: 178px;
+}
+h1.failure-heading {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+p.failure-desc {
+    color: #444343;
+    font-size: 15px;
+    line-height: 25px;
+}
+ul.failure-list {
+    list-style: none;
+    margin-top: 20px;
+}
+ul.failure-list li {
+    font-size: 15px;
+    margin-bottom: 8px;
+    color: #444343;
+}
+.icon{
+    color: #008000;
+    margin-right: 10px;
+}
+/* plan section */
+h1.plan-title {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 55px;
+    font-weight: 700;
+}
+.plan-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    text-align: center;
+}
+h3.item-title {
+    font-weight: 700;
+    font-size: 30px;
+    margin: 15px 0;
+}
+p.item-desc {
+    color: #737272;
+    font-size: 20px;
+}
+.positive{
+    margin-top: 120px;
+    background:linear-gradient(to right, #f15d22, #00000000), url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ffffff;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    padding-left: 63px;
+    border-radius: 10px;
+}
+.positive-title{
+    font-size: 40px;
+    margin-bottom: 22px;
+}
+.call-btn{
+    background-color: #ffffff;
+    color: #f15d22;
+}
